@@ -71,11 +71,11 @@ section button a{
 }
 
 .course{
-  padding: 1vw 0vw 0vw 1vw;
+  padding: 2vw 0vw 0vw 10vw;
 }
 
 .course-outside,.outside{
-  padding :100px;
+  padding-top:100px;
 }
 
 
