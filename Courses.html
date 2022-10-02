@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Courses</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#nav").load("Nav.html");
+        $("#footer").load("Footer.html");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="nav"></div>
+
+    <!-- course -->
+
+    <section class="course course-outside" id="Course">
+      <h1 data-aos="fade-down" data-aos-duration="1500">
+        Our Available Courses
+      </h1>
+
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="card w-auto mx-auto border-dark" data-aos="fade-right">
+            <img
+              src="images/oncampus.png"
+              class="card-img-top"
+              height="350px"
+            />
+            <div class="card-body">
+              <div class="card-header">
+                <h5 class="card-title">On Campus Available Courses</h5>
+              </div>
+
+              <div class="card-footer" style="background-color: darkblue">
+                <div class="text-center">
+                  <button type="button" class="btn btn-warning">
+                    <a href="OnCampus.html">View Courses</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card w-auto mx-auto border-dark" data-aos="fade-left">
+            <img
+              src="images/online.png"
+              class="card-img-top"
+              alt=""
+              height="350px"
+            />
+            <div class="card-body">
+              <div class="card-header">
+                <h5 class="card-title">Online Available Courses</h5>
+              </div>
+
+              <div class="card-footer" style="background-color: darkblue">
+                <div class="text-center">
+                  <button type="button" class="btn btn-warning">
+                    <a href="Online.html">View Courses</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="footer"></div>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

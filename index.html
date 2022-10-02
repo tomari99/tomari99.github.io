@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Pathway Institute</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#Footer").load("Footer.html");
+      });
+    </script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-sm bg-light navbar-light d-flex flex-row justify-content-between align-items-center fixed-top"
+    >
+      <div class="container-fluid">
+        <img
+          src="images/logo1.jpg"
+          class="navbar-brand logo"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          width="200px"
+        />
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#AboutUs">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ContactUs">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Course">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="UpcomingCourses.html"
+                >Upcoming Courses</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- home -->
+
+    <section id="Home">
+      <div class="container" data-aos="zoom-in" data-aos-duration="1000">
+        <h2>Invest your future at New Pathway Institute right now</h2>
+        <p>
+          We offer you IT Diploma Courses ,Certificate Courses and Language
+          Proficiency Courses
+          <strong>available both On Campus and Online</strong>
+        </p>
+        <div
+          class="d-flex flex-row justify-content-center text-align-center align-items-center"
+        >
+          <a href="#AboutUs"
+            ><button
+              type="button"
+              class="btn btn-warning btn1"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              Learn More
+            </button></a
+          >&nbsp;
+          <a href="#Course"
+            ><button
+              type="button"
+              class="btn btn-light"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              View Courses
+            </button></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us-->
+    <section id="AboutUs">
+      <div class="container-fluid">
+        <h1 data-aos="fade-down" data-aos-duration="1000">-About Us-</h1>
+        <div class="row text-center">
+          <div class="col-sm-8">
+            <div
+              data-aos="fade-zoom-in"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="500"
+              data-aos-offset="0"
+            >
+              <p>
+                New Pathway Institute is founded in 2019 just before global
+                pandemic.Our institute aims to give modern advanced
+                technological subjects, useful language profiency courses and
+                applied management courses to today's youths with affordable
+                costs.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <img src="images/logo.jpeg" class="img" alt="NPILogo" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- course -->
+
+    <section class="course course-outside" id="Course">
+      <h1 data-aos="fade-down" data-aos-duration="1500">
+        Our Available Courses
+      </h1>
+
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="card w-auto mx-auto border-dark" data-aos="fade-right">
+            <img
+              src="images/oncampus.png"
+              class="card-img-top"
+              height="350px"
+            />
+            <div class="card-body">
+              <div class="card-header">
+                <h5 class="card-title">On Campus Available Courses</h5>
+              </div>
+
+              <div class="card-footer" style="background-color: darkblue">
+                <div class="text-center">
+                  <button type="button" class="btn btn-warning">
+                    <a href="OnCampus.html">View Courses</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card w-auto mx-auto border-dark" data-aos="fade-left">
+            <img
+              src="images/online.png"
+              class="card-img-top"
+              alt=""
+              height="350px"
+            />
+            <div class="card-body">
+              <div class="card-header">
+                <h5 class="card-title">Online Available Courses</h5>
+              </div>
+
+              <div class="card-footer" style="background-color: darkblue">
+                <div class="text-center">
+                  <button type="button" class="btn btn-warning">
+                    <a href="Online.html">View Courses</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact us-->
+    <div class="ContactUs" id="ContactUs">
+      <div class="mt-1 p-5">
+        <h1 data-aos="fade-down" data-aos-duration="1000">
+          You can contact us via email or telephone
+        </h1>
+        <h5 data-aos="fade-right" data-aos-duration="1000">
+          Telephone :
+          <a
+            href="tel:+959252511414"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            >09252511414</a
+          >
+        </h5>
+        <h5 data-aos="fade-left" data-aos-duration="1000">
+          Email :
+          <a
+            href="mailto:newpathwaymyanmar@outlook.com?subject = Feedback&body = Message"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            newpathwaymyanmar@outlook.com
+          </a>
+        </h5>
+      </div>
+
+      <div class="container-fluid pb-5">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d713.8862336641354!2d96.10476361536294!3d16.881222420102933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c19562b9f16beb%3A0xc561cb3ea829dfc7!2zQSZN!5e0!3m2!1sen!2smm!4v1663341737756!5m2!1sen!2smm"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+      <div id="Footer"></div>
+    </div>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

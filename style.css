@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body{
+
+    background-color:aliceblue;
+    font: 1em Georgia;
+    line-height: 30px;
+
+}
+
+.navbar{ 
+    padding: 0.5vw 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+}
+
+.nav-item a:hover{
+    color:gold;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav-item{
+    padding-right:20px;
+}
+
+.nav-item a{
+ 
+    color:darkblue;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.5s ease;
+    
+}
+
+section button a{
+    color:darkblue;
+    text-decoration: none;
+}
+
+#Home{
+    background-image:linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7)), url("images/bgimg.png");
+    width: 100%;
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:100px;
+    
+}
+
+
+#AboutUs {
+  padding: 100px;
+  width:100%;
+  text-align: center;
+
+  border: solid black 5px;
+}
+
+.course{
+  padding: 1vw 0vw 0vw 1vw;
+}
+
+.course-outside,.outside{
+  padding :100px;
+}
+
+
+
+#Home h2{
+    color:white;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    text-align: center
+}
+
+#Home p{
+    
+    color:white;
+    size: 20px;
+    font-size: 1rem;
+    
+    
+}
+
+
+
+
+#AboutUs p{
+    
+  color:darkblue;
+  font-size: 1.1rem;
+  line-height: 30px;
+  width: 100%;
+  padding: 50px;
+  text-align: center;
+  font-weight: bold;
+  border: black solid 2px;
+  border-radius: 12px;
+
+}
+
+#AboutUs h1{
+  border:black 2px solid;
+  border-radius: 12px;
+}
+
+#AboutUs .img{
+  border: black solid 2px;
+  width: 230px;
+  padding: 30px;
+  border-radius: 50%;
+}
+
+h1{
+    font-weight: 600;
+    color: darkblue;
+    text-align: center;
+    padding:1vw 1vw;
+    transition: 0.6s;
+    user-select: none;
+}
+
+
+h1{
+  align-content: center;
+}
+
+h6 , h5{
+    color:darkblue;
+    text-align: center;
+}
+
+
+.course .card , .course-outside .card {
+    
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+}
+
+.course .card , .course-outside .card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+
+.footer-section {
+    background-color: darkgray;
+    position: relative;
+    
+  }
+  .footer-cta {
+    border-bottom: 1px solid #373636;
+  }
+
+  .cta-text {
+    padding-left: 15px;
+    display: inline-block;
+  }
+  .cta-text h4 {
+    color:darkblue;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+  .cta-text span {
+    color:White;
+    font-size: 16px;
+  }
+  .copyright-area{
+    background:palegoldenrod;
+    padding: 15px 0;
+  }
+  .copyright-text p {
+    margin: 0;
+    font-size: 14px;
+    color:black;
+  }
+  .copyright-text p a{
+    color:darkblue;
+    font-weight: 600;
+  }
+.mail,.phone{
+   
+    color:aliceblue;
+  }
+
+#ContactUs{
+  background-color:aliceblue;
+  
+}
+
+@media (max-width: 800px){
+    nav{
+        padding: 15px 20px;
+    }
+
+   
+    
+    .course .card{
+      
+      height: 350px;
+      width: auto;
+      
+
+  }
+  #AboutUs .img{
+    display: none;
+  }
+
+  #AboutUs p{
+    
+    font-size: 0.7rem;
+    line-height: 20px;
+    
+ 
+    padding: 10px;
+    
+  }
+
+  #home{
+    width:100px
+  }
+
+  #home p{
+    padding : 50px;
+  }
+
+ 
+
+ 
+}
+
